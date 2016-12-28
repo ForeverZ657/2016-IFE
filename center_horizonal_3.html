@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+	#container{
+		background:#999;	
+		text-align:center;
+		padding:20px 0 20px 0;
+	}
+	#container div{
+		background:#f06d06;
+		display:inline-block;
+		width:250px;
+		padding:20px;
+		text-align:left;
+		text-indent:2em;
+	}
+</style>
+</head>
+
+<body>
+	<!--
+    	通过在父元素上设置text-align:center可以使子元素中display属性设置为inline-block的div水平居中
+    -->
+	<div id="container">
+    	<div>
+        	I'm an element that is block-like with my siblings and we're centered in a row.
+        </div>
+        <div>
+        	I'm an element that is block-like with my siblings and we're centered in a row. I have more content in me than my siblings do.
+        </div>
+        <div>
+        	I'm an element that is block-like with my siblings and we're centered in a row.
+        </div>
+    </div>
+</body>
+</html>

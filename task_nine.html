@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>任务九</title>
+<link rel="stylesheet" href="CSS/task_nine.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+    	<header>
+        	<a class="header_logo" href="task_nine.html">
+            	<img src="images/task_nine/images/task_1_9_1_03.gif" />
+            </a>
+            <div id="header_right">
+            	<form>
+                	<img class="header_right_input_bg" src="images/task_nine/images/task_1_9_2_03.jpg" />
+            		<input type="text" id="header_search_content" name="header_search_content" maxlength="30" size="30"/>
+                </form>
+                <div class="header_right_login">
+                	<img src="images/task_nine/images/task_1_9_3_03_03.gif"/>
+                    <a href="#" id="header_login_btn">登录</a>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+        	<div id="left_side_bar">
+            	<div id="left_side_bar_title">
+                	<img src="images/task_nine/images/task_1_9_4_03.gif" />
+                    <a href="#">ABC123</a>
+                </div>
+                <div id="left_side_bar_info">
+                    <div id="left_side_bar_info_left">
+                        <p><a href="#">110</a></p>
+                        <p>收藏</p>
+                    </div>
+                    <div id="left_side_bar_info_middle">
+                    </div>
+                    <div id="left_side_bar_info_right">
+                        <p><a href="#">313</a></p>
+                        <p>粉丝</p>
+                    </div>
+                </div>
+                <div>
+                	<ol id="left_side_bar_list" class="first_level_list">
+                        <li id="person_report_item">
+                        	<input type="checkbox" id="person_report" />
+                            <label class="person_report_item" for="person_report">个人报表</label>
+                            <ol class="second_level_list">
+                                <li>
+                                    <input type="checkbox" id="person_report_file1" />
+                                    <label for="person_report_file1">文件一</label>
+                                    <ol class="three_level_list">
+                                        <li class="leaf_item">文件11</li>
+                                        <li class="leaf_item">文件12</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="person_report_file2" />
+                                    <label for="person_report_file2">文件二</label>
+                                    <ol class="three_level_list">
+                                        <li class="leaf_item">文件21</li>
+                                        <li class="leaf_item">文件22</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="person_report_file3" />
+                                    <label for="person_report_file3">文件三</label>
+                                    <ol class="three_level_list">
+                                        <li class="leaf_item">文件31</li>
+                                        <li class="leaf_item">文件32</li>
+                                    </ol>
+                                </li>
+                        	</ol>
+                        </li>
+                        <li id="person_collection_item">
+                            <label class="person_collection_item">个人收藏</label>
+                        </li>
+                        <li id="my_share_item">
+                            <label class="my_share_item">我的分享</label>
+                        </li>
+                        <li id="gallery_item">
+                            <label class="gallery_item">图库</label>
+                        </li>
+                        <li id="grow_record_item">
+                            <label class="grow_record_item">成长记录</label>
+                        </li>
+                        <li id="account_info_item">
+                            <label class="account_info_item">账户信息</label>
+                        </li>
+                	</ol>
+                </div>
+            </div>
+            <div id="main_content">
+            	<div id="main_content_header">
+                	<span>C站&nbsp;/&nbsp;个人报表&nbsp;/&nbsp;文件一&nbsp;/&nbsp;<span>文档一</span></span>
+                </div>
+                <div id="main_content_info">
+                	<div id="main_content_info_search">
+                    	<div>
+                        	<span class="select_hint">查询项&nbsp;</span>
+                            <div class="custom_select_wrapper">
+                                <input type="text" id="search_item" class="custom_select" value="第一项" size="10" maxlength="10"/>
+                                <label class="custom_select_btn" for="custom_select_btn"></label>
+                                <input type="checkbox" id="custom_select_btn" class="custom_select_checkout"/>
+                                <ol class="custom_select_items">
+                                    <li>第一项</li>
+                                    <li>第二项</li>
+                                    <li>第三项</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="business_switch">
+                    	<div id="purchaser_wrapper">
+                        	<span class="select_hint">买方&nbsp;</span>
+                            <div class="custom_select_wrapper">
+                                <input type="text" id="purchaser_select_item" name="purchaser_select_item" class="custom_select" value="小A" size="10" maxlength="10"/>
+                                <label class="custom_select_btn" for="purchaser"></label>
+                                <input type="checkbox" id="purchaser" class="custom_select_checkout" />
+                                <ol class="custom_select_items">
+                                    <li>小A</li>
+                                    <li>小B</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div id="seller_wrapper">
+                        	<span class="select_hint">卖方&nbsp;</span>
+                            <div class="custom_select_wrapper">
+                                <input type="text" id="seller_select_item" name="seller_select_item" class="custom_select" value="小C"/ size="10" maxlength="10">
+                                <label class="custom_select_btn" for="seller"></label>
+                                <input type="checkbox" id="seller" class="custom_select_checkout" />
+                                <ol class="custom_select_items">
+                                    <li>小C</li>
+                                    <li>小D</li>
+                                </ol>
+                            </div>
+                        </div> 
+                    </div>
+                    <div id="business_switch_img">
+                        <img src="images/task_nine/images/task_1_9_11_03.gif" />
+                    </div>
+                    <div id="select_detail_info">
+                    	<div>
+                        	<span class="select_hint">日期&nbsp;</span>
+                            <input type="text" id="departure_date" name="departure_date" class="custom_select" value="2016年4月1日" size="10" maxlength="10"/>
+                            &nbsp;
+                            <span class="select_hint">总耗时&nbsp;</span>
+                            <div class="custom_select_wrapper">
+                                <input type="text" id="trip_time_expan" name="seller_select_item" class="custom_select" value="10小时" size="10" maxlength="10"/>
+                                <label class="custom_select_btn" for="trip_time_expan_checkout"></label>
+                                <input type="checkbox" id="trip_time_expan_checkout" class="custom_select_checkout" />
+                                <ol class="custom_select_items">
+                                    <li>1天</li>
+                                    <li>2天</li>
+                                    <li>3天</li>
+                                    <li>4天</li>
+                                    <li>5天</li>
+                                    <li>6天</li>
+                                    <li>7天</li>
+                                    <li>8天</li>
+                                    <li>9天</li>
+                                    <li>10天</li>
+                                    <li>更长时间</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div>
+                        	<span class="select_hint">人数&nbsp;</span>
+                            <div class="custom_select_wrapper">
+                                <input type="text" id="trip_people_count" name="trip_people_count" class="custom_select" value="10人" size="10" maxlength="10"/>
+                                <label class="custom_select_btn" for="trip_people_count_checkout"></label>
+                                <input type="checkbox" id="trip_people_count_checkout" class="custom_select_checkout" />
+                                <ol class="custom_select_items">
+                                    <li>1人</li>
+                                    <li>2人</li>
+                                    <li>3人</li>
+                                    <li>4人</li>
+                                    <li>5人</li>
+                                    <li>6人</li>
+                                    <li>7人</li>
+                                    <li>8人</li>
+                                    <li>9人</li>
+                                    <li>10人</li>
+                                    <li>更多人</li>
+                                </ol>
+                            </div>
+                            &nbsp;
+                            <span class="select_hint">成交项&nbsp;</span>
+                            <div class="custom_select_wrapper">
+                                <input type="text" id="deal_items" name="deal_items" class="custom_select" value="10项" size="10" maxlength="10"/>
+                                <label class="custom_select_btn" for="deal_items_checkout"></label>
+                                <input type="checkbox" id="deal_items_checkout" class="custom_select_checkout" />
+                                <ol class="custom_select_items">
+                                    <li>1项</li>
+                                    <li>2项</li>
+                                    <li>3项</li>
+                                    <li>4项</li>
+                                    <li>5项</li>
+                                    <li>6项</li>
+                                    <li>7项</li>
+                                    <li>8项</li>
+                                    <li>9项</li>
+                                    <li>10项</li>
+                                    <li>更多项</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="search_info_submit_btn">提交</button>
+                    
+                </div>
+                <div id="price_search">
+                	<div id="price_search_back">
+                    
+                    </div>
+                    
+                    <div id="price_search_history">
+                    	<span>历史查询</span>
+                    </div>
+                    
+                    <div id="price_search_forward">
+                    
+                    </div>
+                	<div id="price_search_items">
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">10:00 am</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1200</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">11:00 am</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1300</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">12:00 am</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1200</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">01:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1400</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">02:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">03:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">04:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">05:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">06:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">07:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                        <div class="price_search_item">
+                        	<p class="price_search_item_time">08:00 pm</p>
+                            <p><span class="price_unit">￥</span><span class="price_count">1500</span></p>
+                        </div>
+                   	</div>
+                </div>
+                <div id="statistics_data">
+                	<div id="statistics_data_part_1" class="statistics_data_part">
+                    	<div class="statistics_data_part_left">
+                        	<p>133311</p>
+                            <p>成交量</p>
+                        </div>
+                        <div class="statistics_data_part_right">
+                        	
+                        </div>
+                    </div>
+                    <div id="statistics_data_part_2" class="statistics_data_part">
+                    	<div class="statistics_data_part_left">
+                        	<p>133311</p>
+                            <p>成交量</p>
+                        </div>
+                        <div class="statistics_data_part_right">
+                        	
+                        </div>
+                    </div>
+                    <div id="statistics_data_part_3" class="statistics_data_part">
+                    	<div class="statistics_data_part_left">
+                        	<p>133311</p>
+                            <p>成交量</p>
+                        </div>
+                        <div class="statistics_data_part_right">
+                        	
+                        </div>
+                    </div>
+                    <div id="statistics_data_part_4" class="statistics_data_part">
+                    	<div class="statistics_data_part_left">
+                        	<p>133311</p>
+                            <p>成交量</p>
+                        </div>
+                        <div class="statistics_data_part_right">
+                        	
+                        </div>
+                    </div>
+                    <span id="statistics_data_extra_span"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

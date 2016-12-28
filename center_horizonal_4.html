@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+	#container{
+		display:flex; /*弹性布局*/
+		flex-direction:row; /*主轴为水平方向，也是默认值*/	
+		justify-content:center; /*项目在主轴上的对齐方式*/
+		background:#999;	
+		padding:20px 0 20px 0;
+	}
+	#container div{
+		background:#f06d06;
+		width:250px;
+		padding:20px;
+		text-align:left;
+		text-indent:2em;
+		margin-right:20px;
+	}
+</style>
+</head>
+
+<body>
+	<!--
+    	Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。
+        display:flex; 弹性布局
+        flex-direction 决定主轴的方向（即项目的排列方向）
+        justify-content 定义了项目在主轴上的对齐方式
+    -->
+	<div id="container">
+    	<div>
+        	I'm an element that is block-like with my siblings and we're centered in a row.
+        </div>
+        <div>
+        	I'm an element that is block-like with my siblings and we're centered in a row. I have more content in me than my siblings do.
+        </div>
+        <div>
+        	I'm an element that is block-like with my siblings and we're centered in a row.
+        </div>
+    </div>
+</body>
+</html>

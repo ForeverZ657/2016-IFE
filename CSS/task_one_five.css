@@ -1,0 +1,105 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background:#CCC;	
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+	background:url(../images/bd_logo.png) no-repeat #000 15px ;	
+	display:block;
+	overflow:auto;
+	height:100px;
+	line-height:100px;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+	margin-right:20px;	
+}
+
+header ul li{
+	float:left;	
+	display:inline-block;
+	margin-right:15px;
+}
+
+header ul li a{
+	color:#fff;
+	text-decoration:none;	
+}
+
+.content section{
+	padding:20px;
+	background:#FFF;
+	margin:20px;	
+}
+
+.right{
+	width:460px;
+	float:right;	
+}
+
+.left{
+	margin-right:440px;
+}
+
+.content{
+	overflow:auto;	
+}
+
+.article{
+	line-height:1.5em;	
+}
+
+.images .pic{
+	border:1px solid #CCC;
+	display:inline-block;	
+	padding:5px;
+	margin-bottom:5px;
+}
+
+.last_article_table{
+	border:1px solid #333;	
+	width:100%;
+	border-collapse:collapse;
+}
+
+table.last_article_table th,td{
+	border:1px solid #999;	
+	padding:3px;
+	text-align:left;
+}
+
+.last_article_table thead{
+	background:#333;
+	color:#fff;	
+}
+
+.last_article_table tfoot{
+	background:#999;	
+}
+
+.person_info_table td{
+	border:0;
+}
+
+.person_info button{
+	width:100%;	
+	padding:10px 0;
+	margin-top:10px;
+}
+
+footer{
+	display:block;
+	background:#000;
+	color:#fff;
+	height:70px;
+	line-height:70px;
+	text-align:center;	
+}

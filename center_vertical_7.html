@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+	#container{
+		height:300px;
+		background:#f06d06;
+		padding-left:20px;	
+		display:flex; /*弹性布局*/
+		flex-direction:column; /*主轴方向为垂直方向，项目在垂直方向上排列*/
+		justify-content:center; /*项目在主轴方向上居中*/
+	}
+	.box{
+		width:200px;
+		background:#333;
+		color:#fff;	
+		padding:10px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="container">
+    	<div class="box">
+        	<span>I'm a block-level element with an unknown height, centered vertically within my parent.</span>
+        </div>
+    </div>
+</body>
+</html>

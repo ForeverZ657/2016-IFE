@@ -1,0 +1,632 @@
+html,body{
+	margin:0;
+	padding:0;	
+}
+
+.wrapper{
+	width:1280px;
+	margin:0 auto;	
+}
+
+header{
+	height:80px;
+	overflow:auto;	
+	position:relative;
+}
+
+header .header_logo{
+	background:url(../images/images/task_1_7_1_03.jpg) no-repeat left center;
+	padding-left:40px;
+	font-size:24px;	
+	height:80px;
+	line-height:80px;
+	margin-left:50px;
+	font-family:"SimHei";
+}
+
+#header_nav{
+	position:absolute;
+	right:30px;	
+	top:0;
+	height:80px;
+}
+
+#header_nav ul{
+	margin:0;
+	padding:0;	
+	overflow:auto;
+	height:80px;
+	line-height:80px;
+	list-style:none;
+}
+
+#header_nav ul li{
+	float:left;
+	margin-right:30px;
+}
+
+#header_nav ul li a{
+	text-decoration:none;	
+	color:#999;
+	font-family:"SimHei";
+	display:inline-block;
+}
+
+#header_nav ul li a:hover{
+	background:url(../images/images/task_7_3_03.jpg) repeat-x left bottom;	
+}
+
+#header_nav .header_nav_login{
+	background:url(../images/images/task_7_2_03.jpg) no-repeat left center;
+	padding-left:18px;
+	color:#e95f5d;
+}
+
+#header_nav .header_nav_login:hover{
+	background:url(../images/images/task_7_2_03.jpg) no-repeat left center,
+		url(../images/images/task_7_3_03.jpg) repeat-x left bottom;	
+}
+
+#content_first{
+	width:1280px;
+	height:690px;
+	background:url(../images/images/task_1_7_4_02.jpg) no-repeat;
+	position:relative;
+}
+
+#content_first_detail{
+	display:inline-block;
+	position:absolute;
+	left:150px;	
+	top:230px;
+}
+
+#content_first_detail p{
+	margin:0;
+	padding:0;	
+}
+
+#content_first_detail p.cfd_main{
+	font-size:48px;
+	color:#fff;
+	font-family:"SimSun";
+	font-weight:bold;
+	margin-bottom:15px;	
+}
+
+#content_first_detail p.cfd_extra{
+	font-size:22px;
+	color:#fff;
+	margin-bottom:7px;	
+}
+
+#content_first_detail button.cfd_btn{
+	background:#e74f4d no-repeat 0 0;
+	width:330px;
+	height:62px;
+	border:0;
+	margin-top:50px;	
+	font-size:32px;
+	color:#fff;
+}
+
+#content_second{
+	width:1155px;
+	margin:50px auto 60px auto;	
+	overflow:auto;
+}
+
+#content_second .content_second_parts1,.content_second_parts2{
+	overflow:auto;	
+}
+
+#content_second .content_second_parts1{
+	height:70px;	
+}
+
+#content_second .content_second_parts1 .content_second_part{
+	width:288.75px;	
+	height:100%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+}
+
+#content_second .content_second_parts2{
+	height:50px;	
+}
+
+#content_second .content_second_parts2 p{
+	margin:0 auto;
+	width:70%;	
+}
+
+#content_second .content_second_parts2 .content_second_part{
+	width:288px;	
+	height:100%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	color:#666;
+}
+
+#content_second .content_second_parts2 .content_second_part:not(:last-child){
+	border-right:1px solid #666;	
+}
+
+#content_third{
+	height:701px;
+	background:url(../images/images/task_1_7_1_02.jpg) no-repeat;	
+	position:relative;
+}
+
+#content_third_info{
+	height:340px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+}
+
+#content_third_info .cti_1{
+	margin-top:60px;
+	text-align:center;
+	color:#fff;
+	font-size:24px;
+}
+
+#content_third_info .cti_2{
+	margin-top:30px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+}
+
+#content_third_info_form{
+	text-align:center;
+	margin-top:50px;	
+}
+
+#content_third_info_form .content_third_info_form_input{
+	padding:7px;
+	font-size:18px;
+	border:0;
+}
+
+#content_third_info_form .content_third_info_form_btn{
+	width:233px;
+	height:35px;
+	border:0;
+	padding:0;	
+	background:#be4e48;
+	font-size:18px;
+	color:#fff;
+}
+
+#content_third_info_form .content_third_info_form_input_sel_btn{
+	background:url(../images/images/task_7_5_03.jpg) no-repeat;
+	width:19px;
+	height:18px;
+	border:0;	
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+#content_third_info_form .content_third_info_form_input_list{
+	display:none;
+	position:absolute;	
+	list-style:none;
+	background:#e3e2e4;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#content_third_info_form .content_third_info_form_input_list li{
+	padding:10px 0;	
+}
+
+#content_third_info_form .content_third_info_form_input_list li:hover{
+	background:#F9C;	
+}
+
+#content_third_info_form .content_third_info_form_country,.content_third_info_form_province,.content_third_info_form_city{
+	position:relative;	
+	display:inline-block;
+}
+
+#content_fourth{
+	height:413px;
+	background:#f8f7f7;	
+	text-align:center;
+	padding:100px 0;
+}
+
+#content_fourth .content_fourth_container{
+	height:413px;
+	position:relative;	
+	display:inline-block;
+	overflow:auto;
+}
+
+#content_fourth .bj_activity,.sh_activity,.sz_activity,.xg_activity{
+	margin-right:30px;	
+	height:100%;
+	float:left;
+}
+
+#content_fourth .xg_activity{
+	margin-right:0;	
+}
+
+#content_fourth .bj_activity,.sz_activity,.xg_activity .main_title{
+	font-family:"SimHei";	
+	font-size:16px;
+	margin-bottom:0;
+}
+
+#content_fourth .subhead{
+	font-family:"Microsoft YaHei";	
+	font-size:14px;
+	color:#999;
+	margin:7px 0;
+}
+
+#content_fourth .sh_activity .main_title{
+	font-family:"SimSun";	
+	font-size:22px;
+	font-weight:bold;
+	text-align:justify;/*不会对最后一行文本进行两端对齐*/
+	margin:0;
+	color:#333;
+}
+
+#content_fourth .sh_activity .main_title span{
+	display:inline-block;
+	width:100%;	
+}
+
+#content_fifth{
+	padding-left:851px;
+	height:565px;
+	background:url(../images/task_1_7_4_02_02.jpg) no-repeat;	
+	position:relative;
+}
+
+#content_fifth p{
+	margin:0;	
+}
+
+#content_fifth .content_fifth_description{
+	padding:0 70px;	
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center;
+}
+
+#content_fifth .content_fifth_description_title{
+	text-align:center;
+	margin-bottom:25px;	
+}
+
+#content_fifth .content_fifth_description_title .cfdt_1{
+	font-family:"SimSun";
+	font-size:22px;
+	font-weight:bold;	
+}
+
+#content_fifth .content_fifth_description_title .cfdt_2{
+	font-family:"SimSun";
+	font-size:22px;
+	font-weight:bold;
+	color:#e74f4d;	
+}
+
+#content_fifth .content_fifth_description_text{
+	font-family:"SimSun";
+	font-size:14px;
+	color:#b7b7b7;
+	line-height:2em;
+	text-align:left;	
+}
+
+#content_fifth .content_fifth_description_btn{
+	padding:1em 2em;
+	background:#ffffff;	
+	border:1px solid #e87b7e;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+#content_fifth .carousel_btn{
+	border:0;
+	padding:7px;
+	border-radius:7px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+#content_fifth #content_fifth_description_text_2,#content_fifth_description_text_3{
+	display:none;
+}
+
+#content_six{
+	height:520px;
+	background:url(../images/images/task_7_7_03.jpg) no-repeat right top;
+	padding-right:428px;
+	overflow:auto;
+	text-align:center;
+}
+
+#content_six p{
+	margin:0;	
+}
+
+#content_six .content_six_left{
+	height:100%;
+	width:50%;	
+	background:#e74f4d;
+	float:left;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+#content_six .content_six_right{
+	height:100%;
+	width:50%;	
+	float:left;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+#content_six .content_six_btn_left{
+	width:170px;
+	height:45px;
+	margin:0 auto;	
+	border:1px solid #fef4f4;
+	padding:0;
+	background:#e74f4d;
+	font-size:22px;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+#content_six .content_six_btn_right{
+	width:170px;
+	height:45px;
+	margin:0 auto;	
+	border:1px solid #e74f4d;
+	padding:0;
+	background:#ffffff;
+	font-size:22px;
+	font-weight:bold;
+	color:#e74f4d;
+}
+
+#content_six .content_six_left .content_six_first_line,.content_six_left .content_six_second_line,.content_six_left .content_six_third_line{
+	font-family:"NSimSun";
+	font-size:22px;
+	font-weight:bold;	
+	color:#ffffff;
+}
+
+#content_six .content_six_right .content_six_first_line,.content_six_right .content_six_second_line,.content_six_right .content_six_third_line{
+	font-family:"NSimSun";
+	font-size:22px;
+	font-weight:bold;	
+	color:#333;
+}
+
+#content_six .content_six_first_line{
+	margin-bottom:0.5em;	
+}
+
+#content_six .content_six_left .content_six_third_line{
+	margin:1em auto;
+	width:50px;
+	height:3px;
+	background:#ffffff;	
+}
+
+#content_six .content_six_right .content_six_third_line{
+	margin:1em auto;
+	width:50px;
+	height:3px;
+	background:#999;	
+}
+
+#content_seven{
+	padding:150px 0;	
+}
+
+#content_seven .content_seven_first{
+	text-align:center;	
+}
+
+#content_seven .content_seven_first_title{
+	font-size:22px;	
+	font-weight:bold;
+}
+
+#content_seven .content_seven_first_divider{
+	width:50px;
+	height:3px;
+	background:#e74f4d;
+	margin:0 auto;
+}
+
+#content_seven .content_seven_first_subhead{
+	font-size:14px;
+	line-height:1.5em;	
+	color:#aaaaaa;
+}
+
+#content_seven .content_seven_second{
+	padding:0 100px;	
+	overflow:auto;
+	margin-top:50px;
+}
+
+#content_seven .content_seven_second_left{
+	width:350px;
+	overflow:auto;	
+	float:left;
+}
+
+#content_seven .content_seven_second_left_group{
+	margin-bottom:0px;	
+	overflow:auto;
+}
+
+#content_seven .content_seven_second_left .content_seven_second_left_title{
+	font-family:"Microsoft YaHei";	
+}
+
+#content_seven .content_seven_second_left .content_seven_second_left_text{
+	font-family:"Microsoft YaHei";	
+	font-size:13px;
+	color:#aaaaaa;
+}
+
+#content_seven .content_seven_second_left .content_seven_second_left_btn{
+	text-decoration:none;
+	color:#aaaaaa;
+	font-size:13px;	
+	padding-left:14px;
+	background:url(../images/images/task_7_8_03.jpg) no-repeat left center;
+	float:right;
+	margin-right:20px;
+}
+
+#content_seven .content_seven_second .content_seven_second_right{
+	width:670px;
+	float:right;
+	padding-top:16px;
+	overflow:auto;	
+}
+
+#content_seven .content_seven_second_right .content_seven_second_right_input_left{
+	width:304px;
+	padding:8px;	
+	float:left;
+	margin-bottom:10px;
+	font-size:18px;
+	background:#edecee;
+	border:0;
+}
+
+#content_seven .content_seven_second_right .content_seven_second_right_input_right{
+	width:304px;
+	padding:8px;	
+	float:right;
+	margin-bottom:10px;
+	font-size:18px;
+	background:#edecee;
+	border:0;
+}
+
+#content_seven_second_right_textarea{
+	width:640px;
+	padding:15px;
+	margin-bottom:10px;	
+	font-size:18px;
+	background:#edecee;
+	border:0;
+}
+
+#content_seven_second_right_commit_btn{
+	width:100%;	
+	border:0;
+	padding:1em 0;
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	bottom:0;
+}
+
+#content_eight{
+	background:url(../images/images/task_7_9_02.jpg) no-repeat left top;
+	height:361px;
+	text-align:center;	
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+#content_eight p{
+	margin:0;	
+}
+
+#content_eight .content_eight_title{
+	font-family:"SimSun";
+	color:#ffffff;
+	font-size:24px;	
+	margin-bottom:20px;
+}
+
+#content_eight .content_eight_subhead{
+	color:#ffffff;
+	font-size:15px;	
+	line-height:1.6em;
+	margin-bottom:20px;
+}
+
+#contact_email{
+	padding:10px 5px;
+	font-size:16px;	
+	border:0;
+	display:inline;
+	float:left;
+}
+
+#contact_email_btn{
+	height:100%;
+	width:90px;	
+	border:0;
+	background:#6f7178;
+	color:#ffffff;
+	font-size:18px;
+	display:inline;
+	padding:8.5px;
+	float:left;
+}
+
+#content_eight .content_eight_btn_group{
+	overflow:auto;
+	display:inline-block;
+}
+
+#content_eight .content_eight_logos{
+	margin-top:20px;	
+}
+
+#content_eight .content_eight_logo{
+	display:inline-block;
+	margin-right:20px;	
+}
+
+#content_nine{
+	height:55px;
+	background:url(../images/images/task_7_9_03_03.jpg) no-repeat;	
+	overflow:auto;
+}
+
+#content_nine a{
+	text-decoration:none;
+	color:#ffffff;
+	display:inline-block;
+	height:55px;
+	line-height:55px;	
+}
+
+#content_nine .content_nine_a_left{
+	margin-left:100px;
+	float:left;	
+}
+
+#content_nine .content_nine_a_right{
+	margin-right:100px;
+	float:right;	
+}

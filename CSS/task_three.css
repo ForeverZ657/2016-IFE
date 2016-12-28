@@ -1,0 +1,49 @@
+ 
+.container{
+	background:#eee;
+	border:1px solid #999;	
+	overflow:auto; /*清除浮动，包含所有浮动的子元素*/
+	padding:20px;
+	min-width:600px;
+}
+
+.container .left{
+	float:left;
+	width:160px;
+	padding:20px;
+	background:#fff;
+	border:1px solid #333;
+}
+
+.container .right{
+	border:1px solid #333;
+	float:right;
+	padding:20px;	
+	width:80px;
+	background:#fff;
+}
+
+.container .middle{
+	border:1px solid #333;
+	margin-left:220px;
+	margin-right:140px;
+	padding:20px;
+	background:#fff;
+	line-height:1.7em; /*设置文字的行高*/
+}
+
+.team_description{
+	text-align:center;	
+}
+
+.logo{
+	width:80px;
+	height:80px;
+	background:#eee;	
+	margin:0 auto;
+	text-align:center;
+	line-height:40px; /*2行文本就是80px*/
+	margin-bottom:10px;
+}
+
+
