@@ -2,13 +2,14 @@ html,body{
 	margin:0;
 	padding:0;
 	width:100%;	
-	height:100%;
+	/*height:100%;*/
 }
 
 .wrapper{
 	width:100%;	
 	height:100%;
 	overflow:auto;
+	min-width:1238px;
 }
 
 header{
@@ -82,7 +83,7 @@ header{
 }
 
 #left_side_bar{
-	width:300px;
+	width:250px;
 	height:100%;
 	position:absolute;
 	left:0;
@@ -112,7 +113,7 @@ header{
 }
 
 #main_content{
-	padding-left:300px;
+	padding-left:250px;
 	height:100%;	
 }
 
@@ -271,6 +272,7 @@ header{
 	padding:1em 2em;
 	position:relative;
 	box-sizing:border-box;
+	overflow:auto;
 }
 
 #main_content_info_search{	
@@ -295,7 +297,7 @@ header{
 .custom_select{
 	padding:0.3em;
 	z-index:0;
-	color:#398bc2;
+	color:#333;
 }
 
 .custom_select_btn{
@@ -459,7 +461,7 @@ header{
 }
 
 #price_search_history span{
-	color:#4e94c6;	
+	color:#666;	
 }
 
 #statistics_data{
@@ -480,7 +482,7 @@ header{
 	cursor:pointer;	
 	box-sizing:border-box;
 	padding-left:1em;
-	color:#43b29d;
+	color:#333;
 	position:relative;
 }
 
@@ -556,4 +558,323 @@ header{
 	margin-right:20px;
 	margin-top:10px;
 	margin-bottom:10px;
+}
+
+#projects_detail{
+	width:95%;
+	margin:30px auto;
+	position:relative;
+	box-sizing:border-box;
+	height:400px;	
+}
+
+#projects_detail_left{
+	height:100%;
+	width:64%;
+	float:left;	
+	background:#fff;
+	border-radius:10px;
+	overflow:auto;
+}
+
+#projects_detail_right{
+	height:100%;
+	width:34%;
+	float:right;	
+	background:#fff;
+	border-radius:10px;
+	color:#333;
+	padding-bottom:30px;
+	box-sizing:border-box;
+	position:relative;
+}
+
+.font_fade{
+	color:#999;	
+}
+
+#projects_detail .projects_detail_header{
+	background:#f4f5f6;
+	padding:15px 20px;
+	color:#999;	
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+#projects_table .projects_tab{
+	display:inline-block;	
+	padding:0.5em 1em;
+	border-top:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	cursor:pointer;
+}
+
+#projects_table_wrapper{
+	position:relative;
+	padding:20px;	
+	border:1px solid #CCC;
+}
+
+#projects_table{
+	margin:20px 30px;
+}
+
+#projects_detail_sub{
+	padding:15px 30px;
+}
+
+#projects_table_detail{
+	border:1px solid #CCC;
+	width:100%;
+	border-collapse:collapse;
+}
+
+#projects_table_detail td{
+	padding:0.75em 1.5em;;
+	border:1px solid #CCC;
+	font-size:14px;
+	color:#333;
+	cursor:pointer;
+}
+
+#projects_detail_right_content_title p{
+	margin:0.2em;
+}
+
+#projects_detail_right_content{
+	border-top:1px solid #CCC;	
+	border-bottom:1px solid #CCC;
+	overflow:auto;
+}
+
+#projects_detail_right_content_left{
+	float:left;	
+	border-right:1px solid #CCC;
+	padding-right:3em;
+}
+
+#projects_detail_right_content_right{
+	float:left;	
+	padding-left:2em;
+}
+
+#projects_detail_right_third_level p{
+	margin:0.2em;
+}
+
+#projects_detail_right_content p{
+	margin:0.2em;	
+}
+
+#projects_detail_right_content_left .money_unit{
+	color:#000;	
+}
+
+#protocol_wrapper{
+	display:block;
+	margin:100px 30px 30px 30px;	
+	padding-top:6px;
+	border-top:1px solid #CCC;
+	overflow:auto;
+	height:30px;
+	line-height:30px;
+}
+
+#protocol_search_btn{
+	float:right;	
+	border:0;
+	padding:0.5em 1em;
+	border-radius:5px;
+	background:#388ac1;
+	color:#fff;
+}
+
+#extra_info{
+	width:95%;
+	margin:30px auto;
+	position:relative;
+	box-sizing:border-box;
+	height:600px;
+	overflow:auto;	
+}
+
+#calendar{
+	width:39%;
+	height:100%;
+	background:#fff;
+	float:left;	
+	border-radius:10px;
+	overflow:auto;
+}
+
+#car_sale_info{
+	width:59%;
+	height:100%;
+	background:#fff;
+	float:right;
+	border-radius:10px;	
+}
+
+#extra_info .extra_info_detail_header{
+	background:#f4f5f6;
+	padding:15px 20px;
+	color:#999;	
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;	
+}
+
+#calendar_module{
+	padding:15px 15px 30px 15px;
+	color:#43b29d;
+}
+
+#calendar_module_first_level{
+	text-align:justify;	
+}
+
+.custom_select_items_extra{
+	height:10em;
+	overflow:auto;
+}
+
+#back_to_today{
+	padding:0.4em;
+	z-index:0;
+	color:#333;
+	background:#fff;
+	border:1px solid #CCC;	
+}
+
+#calendar_table{
+	color:#000;	
+	width:100%;
+	margin-top:1em;
+}
+
+#calendar_table p{
+	margin:0;	
+}
+
+#calendar_table .calendar_title_bottom_border{
+	width:100%;
+	height:1px;
+	background:#CCC;
+	margin-top:0.3em;
+	margin-bottom:0.3em;	
+}
+
+#calendar_table .calendar_title_top_border{
+	width:100%;
+	height:1px;
+	background:#a9cfec;
+	margin-bottom:0.3em;	
+}
+
+#calendar_table td{
+	text-align:center;	
+	padding:0.3em;
+}
+
+#calendar_table tr{
+	margin-bottom:1.8em;	
+}
+
+.calendar_table_highlight{
+	color:#cd3539;	
+}
+
+.calendar_table_td_highlight{
+	border:1px solid #f6c62b;
+	box-sizing:border-box;	
+}
+
+#car_table{
+	width:80%;
+	margin:30px auto;	
+	border:1px solid #CCC;
+	border-collapse:collapse;
+}
+
+#car_table td,th{
+	border:1px solid #CCC;
+	padding:0.5em 0.5em;	
+	position:relative;
+}
+
+#car_table tr:not(:first-child):hover{
+	background:#f4f6f7;	
+}
+
+#car_table .progress_wrapper{
+	width:50%;
+	height:4px;
+	background:#CCC;	
+	display:inline-block;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin-left:10px;
+}
+
+#car_table .progress_wrapper_sub1{
+	width:90%;
+	height:100%;
+	background:#ed6e52;	
+}
+
+#car_table .progress_wrapper_sub2{
+	width:85%;
+	height:100%;
+	background:#ee804f;	
+}
+
+#car_table .progress_wrapper_sub3{
+	width:80%;
+	height:100%;
+	background:#f19f4f;	
+}
+
+#car_table .progress_wrapper_sub4{
+	width:75%;
+	height:100%;
+	background:#7fcbf0;	
+}
+
+#car_table .progress_wrapper_sub5{
+	width:70%;
+	height:100%;
+	background:#7fcbf0;	
+}
+
+#car_table .progress_wrapper_sub6{
+	width:65%;
+	height:100%;
+	background:#7fcbf0;	
+}
+
+#car_table .progress_wrapper_sub7{
+	width:60%;
+	height:100%;
+	background:#7fcbf0;	
+}
+
+#car_table .progress_wrapper_sub8{
+	width:55%;
+	height:100%;
+	background:#7fcbf0;	
+}
+
+#car_table .progress_wrapper_sub9{
+	width:50%;
+	height:100%;
+	background:#7fcbf0;	
+}
+
+#car_table .progress_wrapper_sub10{
+	width:45%;
+	height:100%;
+	background:#7fcbf0;	
 }
