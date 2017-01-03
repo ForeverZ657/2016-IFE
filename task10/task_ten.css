@@ -1,0 +1,59 @@
+body{
+	margin:0;
+	padding:0;	
+}
+
+#box1{
+	width:150px;
+	height:120px;
+	border:1px solid #f00;	
+	padding:20px;
+	box-sizing:border-box;
+}
+
+#box2{
+	width:150px;
+	height:100px;
+	border:1px solid #f00;	
+	padding:20px;
+	box-sizing:border-box;
+}
+
+#box3{
+	width:150px;
+	height:40px;
+	border:1px solid #f00;	
+	padding:20px;
+	box-sizing:border-box;	
+}
+
+#box4{
+	width:150px;
+	height:200px;
+	border:1px solid #0f0;	
+	padding:20px;
+	box-sizing:border-box;	
+}
+
+@media all and (min-width:640px){
+	.wrapper{
+		display:flex;
+		flex-direction:row; /*主轴方向为从左到右的行方向*/
+		flex-wrap:nowrap;
+		justify-content:space-between;
+		align-items:center; /*在交叉轴上居中*/
+	}	
+}
+
+@media all and (max-width:640px){
+	.wrapper{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap; /*换行，第一行在上方*/	
+		justify-content:space-between;
+		align-items:flex-start; /*交叉轴的起点对齐*/
+	}	
+	#box4{
+		order:-1;	
+	}
+}
