@@ -1,0 +1,463 @@
+/*   注意flexbox的兼容性问题   */
+
+body{
+	margin:0;
+	padding:0;	
+	font-family:"Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+#title{
+	height:3em;
+	line-height:3em;
+	background:#91d4da;	
+	text-align:center;
+	color:#fffbff;
+	position:relative;
+}
+
+#back_btn{
+	/*height和line-height从父元素继承而来，这里不用重复写*/
+	/*float:left;	*/
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	padding:0 2em;
+	
+	/*---start---*/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/*---end---*/
+	
+	/***start***/
+	/* 09版 */
+	 -webkit-box-orient: horizontal;
+	/* 12版 */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: center;
+    /* 12版 */
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-align: center;
+    /* 12版 */
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+	/***end***/
+}
+
+#back_btn span:first-child{
+	font-size:1.8rem;
+	margin-right:0.2rem;	
+}
+
+#nav{
+	height:3rem;
+	line-height:3rem;	
+	background:#ffffff;
+	position:relative;
+	margin:0;
+	padding:0;
+}
+
+#nav .nav_item{
+	display:inline-block;	
+	background:#ffffff;
+	width:20%;
+	text-align:center;
+}
+
+#pic{
+	width:100%;
+	overflow:hidden;
+	
+	/*---start---*/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/*---end---*/
+	
+	/***start***/
+	/* 09版 */
+	 -webkit-box-orient: horizontal;
+	/* 12版 */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: center;
+    /* 12版 */
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+	/***end***/
+	
+	background:#edd6c4;
+}
+
+#labels{
+	height:15rem;	
+	
+	/***start***/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+	 -webkit-box-orient: horizontal;
+	/* 12版 */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: center;
+    /* 12版 */
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-align: center;
+    /* 12版 */
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+	/***end***/
+}
+
+#labels .label{
+	display:inline-block;
+	width:20%;	
+	text-align:center;
+}
+
+#labels .label_img{
+	margin-bottom:1.5rem;	
+}
+
+.horizontal_divider1{
+	width:90%;
+	margin:0 auto;
+	height:0.3rem;
+	background:#dedede;	
+}
+
+#subfields{
+	height:25rem;
+	width:90%;
+	margin:0 auto;	
+	
+	/***start***/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+	 -webkit-box-orient: horizontal;
+	/* 12版 */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: center;
+    /* 12版 */
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-align: center;
+    /* 12版 */
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+	/***end***/
+}
+
+#subfields .subfield{
+	width:33.33%;	
+	display:inline-block;
+	text-align:center;
+	box-sizing:border-box;
+	padding:1rem;
+}
+
+#subfields .subfield_title{
+	font-size:28px;	
+	font-weight:bold;
+	margin-top:1rem;
+}
+
+#subfields .subfield_subtitle{
+	font-size:22px;	
+	font-weight:bold;
+	margin-top:1rem;
+	color:#585858;	
+}
+
+#subfields .subfield1,.subfield2{
+	border-right:3px solid #dfdfdf;	
+}
+
+.horizontal_divider2{
+	height:3rem;
+	background:#f5f5f5;
+}
+
+/*模块*/
+
+.module{
+	width:90%;
+	margin:0 auto;	
+	padding:3rem 0 0 0;
+}
+
+.module_title{
+	font-size:3rem;	
+	margin-bottom:1rem;
+}
+
+.horizontal_divider3{
+	margin:0 auto;
+	height:0.3rem;
+	background:#e0e0e0;	
+}
+
+.module_content{
+	padding:3rem 0 0 0;	
+}
+
+.module_content_subfields{
+	margin-bottom:1.5rem;	
+	height:227px;
+	background:url(images/task_1_11_4_03.gif) left center no-repeat;
+	padding-left:241px;
+	
+	/***start***/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-orient: vertical;
+    /* 12版 */
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: space-between;
+    /* 12版 */
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+	/***end***/
+}
+
+.module_content_subfields .module_content_subfield{
+	
+	/***start***/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+	 -webkit-box-orient: horizontal;
+	/* 12版 */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: space-between;
+    /* 12版 */
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+	/***end***/
+}
+
+.module_content_subfields .module_content_subfield .module_content_subfield_txt{
+	display:inline-block;
+	font-size:2rem;
+	padding:1.5rem 4rem;
+	background:#f8f8f8;	
+	margin-left:3rem;
+	/*flex-grow:1;*/
+	
+	/***start***/
+	-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1;         /* OLD - Firefox 19- */
+    width: 20%;               /* For old syntax, otherwise collapses. */
+    -webkit-flex: 1;          /* Chrome */
+    -ms-flex: 1;              /* IE 10 */
+    flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	/***end***/
+	
+	text-align:center;
+}
+
+/*新闻摘要*/
+.article_summary{
+	width:90%;
+	margin:1.5rem auto;	
+	background:url(images/task_1_11_5_03.gif) no-repeat left center;
+	height:199px;
+	padding-left:281px;
+	padding-right:3rem;
+	box-sizing:border-box;
+}
+
+.article_summary .article_summary_content{
+	padding-left:3rem;	
+	box-sizing:border-box;
+	height:100%;
+	
+	/***start***/
+	display: -webkit-box;  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;     /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;  /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex;         /* 新版本语法: Opera 12.1, Firefox 22+ */
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-orient: vertical;
+    /* 12版 */
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+	/***end***/
+	
+	/***start***/
+	/* 09版 */
+    -webkit-box-pack: space-between;
+    /* 12版 */
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+	/***end***/
+}
+
+.article_summary .article_summary_title{
+	font-size:3rem;	
+}
+
+.article_summary .article_summary_publish_time{
+	font-size:2.5rem;	
+	color:#c2c2c2;
+}
+
+/*******/
+
+/*最后一个文章摘要*/
+.article_summary_bottom{
+	width:90%;
+	margin:1.5rem auto;	
+}
+
+.article_summary_bottom .article_summary_bottom_title{
+	font-size:3rem;	
+	margin-bottom:1.5rem;	
+}
+
+.article_summary_bottom .article_summary_bottom_imgs{
+	text-align:justify;	
+}
+
+.article_summary_bottom .article_summary_bottom_publish_time{
+	font-size:2.5rem;	
+	color:#c2c2c2;
+	margin:1.5rem 0;	
+}
+/*************/
+
+.horizontal_divider4{
+	margin:0 auto;
+	height:8rem;
+	background:#f8f8f8;		
+}
