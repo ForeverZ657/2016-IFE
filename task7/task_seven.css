@@ -15,7 +15,7 @@ header{
 }
 
 header .header_logo{
-	background:url(../images/images/task_1_7_1_03.jpg) no-repeat left center;
+	background:url(images/task_1_7_1_03.jpg) no-repeat left center;
 	padding-left:40px;
 	font-size:24px;	
 	height:80px;
@@ -53,24 +53,24 @@ header .header_logo{
 }
 
 #header_nav ul li a:hover{
-	background:url(../images/images/task_7_3_03.jpg) repeat-x left bottom;	
+	background:url(images/task_7_3_03.jpg) repeat-x left bottom;	
 }
 
 #header_nav .header_nav_login{
-	background:url(../images/images/task_7_2_03.jpg) no-repeat left center;
+	background:url(images/task_7_2_03.jpg) no-repeat left center;
 	padding-left:18px;
 	color:#e95f5d;
 }
 
 #header_nav .header_nav_login:hover{
-	background:url(../images/images/task_7_2_03.jpg) no-repeat left center,
-		url(../images/images/task_7_3_03.jpg) repeat-x left bottom;	
+	background:url(images/task_7_2_03.jpg) no-repeat left center,
+		url(images/task_7_3_03.jpg) repeat-x left bottom;	
 }
 
 #content_first{
 	width:1280px;
 	height:690px;
-	background:url(../images/images/task_1_7_4_02.jpg) no-repeat;
+	background:url(images/task_1_7_4_02.jpg) no-repeat;
 	position:relative;
 }
 
@@ -156,7 +156,7 @@ header .header_logo{
 
 #content_third{
 	height:701px;
-	background:url(../images/images/task_1_7_1_02.jpg) no-repeat;	
+	background:url(images/task_1_7_1_02.jpg) no-repeat;	
 	position:relative;
 }
 
@@ -203,7 +203,7 @@ header .header_logo{
 }
 
 #content_third_info_form .content_third_info_form_input_sel_btn{
-	background:url(../images/images/task_7_5_03.jpg) no-repeat;
+	background:url(images/task_7_5_03.jpg) no-repeat;
 	width:19px;
 	height:18px;
 	border:0;	
@@ -289,7 +289,7 @@ header .header_logo{
 #content_fifth{
 	padding-left:851px;
 	height:565px;
-	background:url(../images/task_1_7_4_02_02.jpg) no-repeat;	
+	background:url(images/task_1_7_4_02_02.jpg) no-repeat;	
 	position:relative;
 }
 
@@ -353,7 +353,7 @@ header .header_logo{
 
 #content_six{
 	height:520px;
-	background:url(../images/images/task_7_7_03.jpg) no-repeat right top;
+	background:url(images/task_7_7_03.jpg) no-repeat right top;
 	padding-right:428px;
 	overflow:auto;
 	text-align:center;
@@ -496,7 +496,7 @@ header .header_logo{
 	color:#aaaaaa;
 	font-size:13px;	
 	padding-left:14px;
-	background:url(../images/images/task_7_8_03.jpg) no-repeat left center;
+	background:url(images/task_7_8_03.jpg) no-repeat left center;
 	float:right;
 	margin-right:20px;
 }
@@ -547,7 +547,7 @@ header .header_logo{
 }
 
 #content_eight{
-	background:url(../images/images/task_7_9_02.jpg) no-repeat left top;
+	background:url(images/task_7_9_02.jpg) no-repeat left top;
 	height:361px;
 	text-align:center;	
 	display:flex;
@@ -609,7 +609,7 @@ header .header_logo{
 
 #content_nine{
 	height:55px;
-	background:url(../images/images/task_7_9_03_03.jpg) no-repeat;	
+	background:url(images/task_7_9_03_03.jpg) no-repeat;	
 	overflow:auto;
 }
 
