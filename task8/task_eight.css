@@ -1,7 +1,8 @@
 html,body{
 	margin:0;
 	padding:0;
-	width:100%;	
+	/*width:100%;	*/
+	min-width: 768px;
 }
 
 .grid-container{ /*响应式网格的容器*/
