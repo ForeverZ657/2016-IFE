@@ -202,47 +202,47 @@ header{
 }
 
 #left_side_bar_list .person_report_item{
-	background:url(../images/task_nine/images/task_1_9_5_03.gif) no-repeat left center;
+	background:url(images/task_1_9_5_03.gif) no-repeat left center;
 	padding-left:18px;
 }
 
 #left_side_bar_list .person_collection_item{
-	background:url(../images/task_nine/images/task_1_9_5_06.gif) no-repeat left center;
+	background:url(images/task_1_9_5_06.gif) no-repeat left center;
 	padding-left:18px;	
 }
 
 #left_side_bar_list .my_share_item{
-	background:url(../images/task_nine/images/task_1_9_5_08.gif) no-repeat left center;
+	background:url(images/task_1_9_5_08.gif) no-repeat left center;
 	padding-left:18px;	
 }
 
 #left_side_bar_list .gallery_item{
-	background:url(../images/task_nine/images/task_1_9_5_10.gif) no-repeat left center;
+	background:url(images/task_1_9_5_10.gif) no-repeat left center;
 	padding-left:18px;	
 }
 
 #left_side_bar_list .grow_record_item{
-	background:url(../images/task_nine/images/task_1_9_5_10.gif) no-repeat left center;
+	background:url(images/task_1_9_5_10.gif) no-repeat left center;
 	padding-left:18px;	
 }
 
 #left_side_bar_list .account_info_item{
-	background:url(../images/task_nine/images/task_1_9_5_12.gif) no-repeat left center;
+	background:url(images/task_1_9_5_12.gif) no-repeat left center;
 	padding-left:18px;	
 }
 
 #left_side_bar_list .second_level_list label{
-	background:url(../images/task_nine/images/task_1_9_6_03.gif) no-repeat left center;
+	background:url(images/task_1_9_6_03.gif) no-repeat left center;
 	padding-left:18px;		
 }
 
 #left_side_bar_list>li>input:checked~ol>li>input:checked+label{
-	background:url(../images/task_nine/images/task_1_9_6_07.gif) no-repeat left center;
+	background:url(images/task_1_9_6_07.gif) no-repeat left center;
 	padding-left:18px;		
 }
 
 #left_side_bar_list .leaf_item{
-	background:url(../images/task_nine/images/task_1_9_7_03.gif) no-repeat left center;
+	background:url(images/task_1_9_7_03.gif) no-repeat left center;
 	padding-left:18px;		
 }
 
@@ -306,7 +306,7 @@ header{
 	top:4px;
 	z-index:1;
 	display:inline-block;
-	background:url(../images/task_nine/images/task_1_10_1_03.gif) no-repeat center center;
+	background:url(images/task_1_10_1_03.gif) no-repeat center center;
 	width:20px;
 	height:20px;
 	cursor:pointer;
@@ -393,7 +393,7 @@ header{
 #price_search_back{
 	width:30px;
 	height:100%;
-	background:#fff url(../images/task_nine/images/task_1_13_1_04.gif) no-repeat center center;
+	background:#fff url(images/task_1_13_1_04.gif) no-repeat center center;
 	display:inline-block;
 	cursor:pointer;
 	float:left;
@@ -440,7 +440,7 @@ header{
 #price_search_forward{
 	width:30px;
 	height:100%;
-	background:#fff url(../images/task_nine/images/task_1_13_1_03.gif) no-repeat center center;
+	background:#fff url(images/task_1_13_1_03.gif) no-repeat center center;
 	display:inline-block;
 	float:right;
 	cursor:pointer;	
@@ -451,7 +451,7 @@ header{
 	height:60px;
 	line-height:60px;
 	display:inline-block;
-	background:#fff url(../images/task_nine/images/task_1_12_1_03.gif) no-repeat 20px center;
+	background:#fff url(images/task_1_12_1_03.gif) no-repeat 20px center;
 	float:right;
 	margin-left:20px;
 	cursor:pointer;	
