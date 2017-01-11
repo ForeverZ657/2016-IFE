@@ -8,7 +8,7 @@ html,body{
 }
 
 header{
-	background:url(../images/bd_logo.png) no-repeat #000 15px ;	
+	background:url(images/bd_logo.png) no-repeat #000 15px ;	
 	display:block;
 	overflow:auto;
 	height:100px;
