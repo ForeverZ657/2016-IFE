@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>task14</title>
+  </head>
+<body>
+
+  <h3>污染城市列表</h3>
+  <ul id="aqi-list">
+<!--   
+    <li>第一名：福州（样例），10</li>
+  	<li>第二名：福州（样例），10</li> -->
+  </ul>
+
+<script type="text/javascript">
+
+var aqiData = [
+  ["北京", 90],
+  ["上海", 50],
+  ["福州", 10],
+  ["广州", 50],
+  ["成都", 90],
+  ["西安", 100]
+];
+
+(function () {
+  /*
+  在注释下方编写代码
+  遍历读取aqiData中各个城市的数据
+  将空气质量指数大于60的城市显示到aqi-list的列表中
+  */
+
+  var airArr=new Array(); //存放各个城市空气质量键值对的数组
+
+  for(var i=0;i<aqiData.length;i++){ //读取二位数组中的数据到键值对中
+  	var cityName=aqiData[i][0];
+  	var cityAir=aqiData[i][1];
+  	var airObj={
+  		cityName:cityName,
+  		cityAir:cityAir
+  	};
+  	airArr.push(airObj);
+  }
+
+  airArr.sort(function(obj1,obj2){ //sort进行的是原地排序
+  	return obj2.cityAir-obj1.cityAir;
+  });
+
+  var aqi_list=document.getElementById("aqi-list");//城市空气质量列表容器
+  var rank=0;//记录列表项中的排名
+  /*
+	for in 遍历数组时遍历的是数组中元素的下标
+	eg:
+	var b=["a","b","c"];
+	for(var x in b){
+		alert(x);
+	}
+	弹出的是 0 1 2
+  */
+  for(var oneCityAQI in airArr){
+  	if(airArr[oneCityAQI].cityAir>60){
+  		rank++;
+  		var aqi_str="第"+rank+"名："+airArr[oneCityAQI].cityName+","+airArr[oneCityAQI].cityAir;
+  		var li=document.createElement("li");
+	  	var li_text=document.createTextNode(aqi_str);
+	  	li.appendChild(li_text);
+	  	aqi_list.appendChild(li);
+  	}
+  }
+
+})();
+
+</script>
+</body>
+</html>
