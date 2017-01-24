@@ -26,7 +26,7 @@
 
 ![](http://i.imgur.com/cOQBqnK.png)
 ***
-###**task9**
+#*task9*
 略微复杂的界面设计
 
 ![](http://i.imgur.com/SJ3VIkf.jpg)
@@ -36,13 +36,14 @@
 
 ![](http://i.imgur.com/RIiF8iL.png)
 ***
-###**task11**
+#*task11*
 移动Web页面布局实践
 
 ![](http://i.imgur.com/vmk4tgF.jpg)
 ***
-###**task12**
+#*task12*
 学习CSS3的新特性
+
 自定义轮播控件
 
 ![](http://i.imgur.com/7mP0iHs.png)
@@ -64,11 +65,12 @@
 
 ![](http://i.imgur.com/cz76ErA.png)![](http://i.imgur.com/v2qd7zr.png)
 ***
-###**task16**
+#*task16*
 添加元素到表格并动态管理
 
 ![](http://i.imgur.com/uJS5Yjl.png)
-###**task17**
+***
+#*task17*
 按时间粒度显示某城市空气质量数据
 ![](http://i.imgur.com/n36gr4K.png)
 ![](http://i.imgur.com/5zOPEhF.png)
