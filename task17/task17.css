@@ -1,0 +1,22 @@
+.aqi-chart-wrap{
+	text-align:center;
+	margin-top:20px;
+}
+
+.part-day{
+	width:8px;
+	margin-right: 2px;
+	display: inline-block;
+}
+
+.part-week{
+	width:19px;
+	margin-right: 3px;
+	display: inline-block;
+}
+
+.part-month{
+	width:30px;
+	margin: 4px;
+	display: inline-block;
+}
