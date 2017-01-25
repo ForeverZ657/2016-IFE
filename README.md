@@ -1,6 +1,7 @@
 ###task3
 三栏式布局
 ![](http://i.imgur.com/I8RJ1jl.png)
+
 ***
 ###task4
 定位和居中问题
