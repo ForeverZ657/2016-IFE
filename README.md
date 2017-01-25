@@ -46,7 +46,7 @@
 
 自定义轮播控件
 
-![](http://i.imgur.com/7mP0iHs.png)
+![](http://i.imgur.com/0R0cNmC.png)
 ***
 ###task13
 字符串的获取与填充
