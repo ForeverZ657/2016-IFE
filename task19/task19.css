@@ -1,0 +1,10 @@
+#chart-wrap{
+	margin-top:20px;
+}
+
+.chart-part{
+	width:15px;
+	display: inline-block;
+	background: #FF0000;
+	margin-right: 3px;
+}

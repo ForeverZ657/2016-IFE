@@ -81,3 +81,7 @@
 模拟队列的行为
 
 ![](http://i.imgur.com/lh4xaAl.png)
+***
+##task19
+直方图模拟队列的行为
+![](http://i.imgur.com/3bBrCQC.png)
