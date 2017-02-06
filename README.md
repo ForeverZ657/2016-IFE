@@ -66,7 +66,7 @@
 
 ![](http://i.imgur.com/cz76ErA.png)![](http://i.imgur.com/v2qd7zr.png)
 ***
-##task16
+###task16
 添加元素到表格并动态管理
 
 ![](http://i.imgur.com/uJS5Yjl.png)
@@ -77,11 +77,18 @@
 ![](http://i.imgur.com/5zOPEhF.png)
 ![](http://i.imgur.com/YUUbZUP.png)
 ***
-##task18
+###task18
 模拟队列的行为
 
 ![](http://i.imgur.com/lh4xaAl.png)
 ***
-##task19
+###task19
 直方图模拟队列的行为
 ![](http://i.imgur.com/3bBrCQC.png)
+***
+##task20
+模拟队列的行为
+
+在task18的基础上做一个改进
+![](http://i.imgur.com/dJOQaRV.png)
+***

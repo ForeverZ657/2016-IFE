@@ -3,6 +3,7 @@
 	var right_in_btn=document.getElementById("right_in");//从右侧插入
 	var left_out_btn=document.getElementById("left_out");//从左侧删除
 	var right_out_btn=document.getElementById("right_out");//从右侧删除
+	var search_btn=document.getElementById("search_btn");//查询内容
 
 	var queue=document.getElementById("queue");//ul模拟的队列
 	var childNodes=queue.childNodes; //得到所有子节点
@@ -21,13 +22,16 @@
 		var input_content=((document.getElementById("content")).value).replace(/(^\s*)|(\s*$)/g,"");
 
 		if(input_content!=""){
-			var first_elem=queue.firstChild;
-			var insert_elem=document.createElement("li");
-			var insert_elem_txt=document.createTextNode(input_content);
-			insert_elem.appendChild(insert_elem_txt);
-			queue.insertBefore(insert_elem,first_elem);//注意：有insertBefore，没有insertAfter
-			insert_elem.onclick=function(){
-				queue.removeChild(this);
+			var values=getInputValues(input_content);
+			for(var i=values.length-1;i>=0;i--){
+				var first_elem=queue.firstChild;
+				var insert_elem=document.createElement("li");
+				var insert_elem_txt=document.createTextNode(values[i]);
+				insert_elem.appendChild(insert_elem_txt);
+				queue.insertBefore(insert_elem,first_elem);//注意：有insertBefore，没有insertAfter
+				insert_elem.onclick=function(){
+					queue.removeChild(this);
+				}
 			}
 		}
 		else{
@@ -47,12 +51,15 @@
 		var input_content=((document.getElementById("content")).value).replace(/(^\s*)|(\s*$)/g,"");
 
 		if(input_content!=""){
-			var insert_elem=document.createElement("li");
-			var insert_elem_txt=document.createTextNode(input_content);
-			insert_elem.appendChild(insert_elem_txt);
-			queue.appendChild(insert_elem);
-			insert_elem.onclick=function(){
-				queue.removeChild(this);
+			var values=getInputValues(input_content);
+			for(var i=0;i<values.length;i++){
+				var insert_elem=document.createElement("li");
+				var insert_elem_txt=document.createTextNode(values[i]);
+				insert_elem.appendChild(insert_elem_txt);
+				queue.appendChild(insert_elem);
+				insert_elem.onclick=function(){
+					queue.removeChild(this);
+				}
 			}
 		}
 		else{
@@ -74,4 +81,28 @@
 		}
 	}
 
+	search_btn.onclick=function(){
+		var search_content=(document.getElementById("searchContent").value).replace(/(^\s*)|(\s*$)/g,"");
+		var childNodes=queue.childNodes;
+		for(var i=0;i<childNodes.length;i++){
+			queue.childNodes[i].style.backgroundColor="#EF9090";
+		}
+		var count=0;//查到结果的数量
+		for(var i=0;i<childNodes.length;i++){
+			if(childNodes[i].innerHTML.indexOf(search_content)!=-1){
+				queue.childNodes[i].style.backgroundColor="#7B68EE";
+				count++;
+			}
+		}
+		if(count==0){
+			alert("未找到结果");
+		}
+	}
+
 })();
+/*
+	将文本域中输入的内容分割开，形成一个字符串数组
+*/
+function getInputValues(str){
+	return str.split(/[^0-9a-zA-Z\u4E00-\u9FA5]+/).filter(function(e){ return e!=""; });
+}

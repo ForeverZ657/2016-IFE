@@ -1,0 +1,15 @@
+div.queue-wrapper{
+	margin-top:1em;
+}
+#queue{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#queue li{
+	float:left;
+	padding:0.5em;
+	background:#EF9090;
+	margin-right: 0.5em;
+	cursor: pointer;
+}
