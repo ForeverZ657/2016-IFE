@@ -1,0 +1,29 @@
+body{
+	font-size: 1.3rem;
+}
+.outer-wrapper{
+	margin-bottom: 2rem;
+}
+
+#tec-queue-wrapper,#hobby-queue-wrapper{
+	margin-top:1rem;
+}
+
+/*技术队列中元素样式*/
+.tec-item{
+	display: inline-block;
+	padding:0.5rem;
+	background: #E97F7F;
+	color:#FFFFFF;
+	margin-right:1rem;
+	cursor: pointer;
+}
+/*兴趣队列中元素样式*/
+.hobby-item{
+	display: inline-block;
+	padding:0.5rem;
+	background: #BC89F6;
+	color:#FFFFFF;
+	margin-right:1rem;
+	cursor: pointer;
+}

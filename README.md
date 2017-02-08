@@ -78,17 +78,26 @@
 ![](http://i.imgur.com/YUUbZUP.png)
 ***
 ###task18
-模拟队列的行为
+模拟队列的行为（一）
 
 ![](http://i.imgur.com/lh4xaAl.png)
 ***
 ###task19
+模拟队列的行为（二）
+
 直方图模拟队列的行为
 ![](http://i.imgur.com/3bBrCQC.png)
 ***
 ##task20
-模拟队列的行为
+模拟队列的行为（三）
 
 在task18的基础上做一个改进
 ![](http://i.imgur.com/dJOQaRV.png)
+***
+##task21
+模拟队列的行为（四）
+
+在task20的基础上做改进
+
+![](http://i.imgur.com/xCSqzli.png)
 ***
