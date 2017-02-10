@@ -37,12 +37,12 @@
 
 ![](http://i.imgur.com/RIiF8iL.png)
 ***
-##task11
+###task11
 移动Web页面布局实践
 
 ![](http://i.imgur.com/vmk4tgF.jpg)
 ***
-#*task12*
+##task12
 学习CSS3的新特性
 
 自定义轮播控件
@@ -71,7 +71,7 @@
 
 ![](http://i.imgur.com/uJS5Yjl.png)
 ***
-#*task17*
+##task17
 按时间粒度显示某城市空气质量数据
 ![](http://i.imgur.com/n36gr4K.png)
 ![](http://i.imgur.com/5zOPEhF.png)
@@ -88,7 +88,7 @@
 直方图模拟队列的行为
 ![](http://i.imgur.com/3bBrCQC.png)
 ***
-##task20
+###task20
 模拟队列的行为（三）
 
 在task18的基础上做一个改进
@@ -100,4 +100,8 @@
 在task20的基础上做改进
 
 ![](http://i.imgur.com/xCSqzli.png)
+***
+##task22
+动画形式呈现二叉树遍历过程
+![](http://i.imgur.com/Q0zS6E0.gif)
 ***

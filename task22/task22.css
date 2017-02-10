@@ -1,0 +1,56 @@
+body{
+	background: #fff;
+}
+
+.traverse-btn-groups{
+	margin-bottom:15px;
+}
+
+.root{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width:1000px;
+	height: 300px;
+	padding:20px;
+	border: 1px solid #959595;
+	z-index: 100;
+}
+	
+.second-level{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width:450px;
+	height:260px;
+	padding:20px;
+	border: 1px solid #959595;
+	z-index: 100;
+}
+
+.third-level{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width:175px;
+	height:220px;
+	padding:20px;
+	border: 1px solid #959595;
+	z-index: 100;
+}
+
+.fourth-level{
+	width:77px;
+	height:220px; /*凑数字凑得非常酸爽*/
+	border: 1px solid #959595;
+	z-index: 100;
+}
