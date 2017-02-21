@@ -105,3 +105,6 @@
 动画形式呈现二叉树遍历过程
 ![](http://i.imgur.com/Q0zS6E0.gif)
 ***
+##task23
+动画形式呈现多叉树的遍历及查找
+![](http://i.imgur.com/hsi3EFf.png)

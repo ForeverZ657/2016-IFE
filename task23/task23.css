@@ -1,0 +1,74 @@
+body{
+	background: #fff;
+	font-size: 10px;
+}
+
+.traverse-btn-groups{
+	margin-bottom:15px;
+}
+
+.root{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 1500px;
+	height: 300px;
+	padding:20px;
+	border: 1px solid #060606;
+	z-index: 100;
+}
+	
+.second-level{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height:260px;
+	padding:20px;
+	border: 1px solid #433F3F;
+	z-index: 100;
+}
+
+.third-level{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height:220px;
+	padding:20px;
+	border: 1px solid #766262;
+	z-index: 100;
+}
+
+.fourth-level{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height:180px;
+	padding:20px;
+	border: 1px solid #7A3C3C;
+	z-index: 100;
+}
+
+.fifth-level{
+	display:-webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height:140px;
+	padding:20px;
+	border: 1px solid #959595;
+	z-index: 100;
+}
