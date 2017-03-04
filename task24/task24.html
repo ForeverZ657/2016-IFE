@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>task24</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="task24.css" rel="stylesheet">
+</head>
+<body>
+	<fieldset class="traverse-btn-groups">
+		<button type="button" id="pre-order-traverse">先序遍历</button>
+		&nbsp;
+		
+		<button type="button" id="post-order-traverse">后序遍历</button>
+        &nbsp;
+        |
+        &nbsp;
+        <input type="text" id="searchContent" name="searchContent" placeholder="请输入查询内容">
+        <button type="button" id="pre-order-search-btn">前序遍历查找</button>
+        <button type="button" id="post-order-search-btn">后序遍历查找</button>
+        &nbsp;
+        |
+        &nbsp;
+        <button type="button" id="delectSelectedNodeBtn">删除选中的节点</button>
+        &nbsp;
+        |
+        &nbsp;
+        <input type="text" id="insertTxt" name="insertTxt" placeholder="请输入插入内容">
+        <button type="button" id="insertNodeBtn">插入节点</button>
+	</fieldset>
+    <div id="root" class="tree-node root">
+        <span>Super</span>
+    	<div class="tree-node second-level">
+            <span>Hobby</span>
+    		<div class="tree-node third-level">
+                <span>Apple</span>
+    			<div class="tree-node fourth-level">
+                    <span>Pig</span>
+    			</div>
+    			<div class="tree-node fourth-level">
+                    <span>Ben</span>
+    			</div>
+                <div class="tree-node fourth-level">
+                    <span>Java</span>
+                </div>
+                <div class="tree-node fourth-level">
+                    <span>Hello</span>
+                </div>
+    		</div>
+    		<div class="tree-node third-level">
+                <span>Phone</span>
+    		</div>
+            <div class="tree-node third-level">
+                <span>Study</span>
+                <div class="tree-node fourth-level">
+                    <span>Book</span>
+                </div>
+                <div class="tree-node fourth-level">
+                    <span>School</span>
+                </div>
+            </div>
+    	</div>
+    	<div class="tree-node second-level">
+            <span>Note</span>
+    		<div class="tree-node third-level">
+                <span>Human</span>
+    			<div class="tree-node fourth-level">
+                    <span>Code</span>
+    			</div>
+    			<div class="tree-node fourth-level">
+                    <span>Operate</span>
+    			</div>
+                <div class="tree-node fourth-level">
+                    <span>Mon</span>
+                </div>
+    		</div>
+    		<div class="tree-node third-level">
+                <span>Yes</span>
+    			<div class="tree-node fourth-level">
+                    <span>Bement</span>
+                    <div class="tree-node fifth-level">
+                        <span>Ben</span>
+                    </div>
+    			</div>
+    			<div class="tree-node fourth-level">
+                    <span>Gloss</span>
+    			</div>
+    		</div>
+    	</div>
+        <div class="tree-node second-level">
+            <span>Fish</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="task24.js"></script>
+</body>
+</html>
